@@ -1,0 +1,840 @@
+/* General Page Styling */
+body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+			box-sizing: border-box;
+            font-family: Arial, sans-serif;
+			line-height: 1.3;
+			color: #333;
+        }
+		
+/*Login*/
+.login-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 36px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+		.login-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        .form-group input {
+            width: 90%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #ff66b3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .register-account {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .register-account a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .register-account a:hover {
+            text-decoration: underline;
+        }
+		
+		.admin-login {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .admin-login a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .admin-login a:hover {
+            text-decoration: underline;
+        }
+		.customer-login {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .customer-login a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .customer-login a:hover {
+            text-decoration: underline;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff99cc; /* Dark pink */
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+	max-height:25%;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav ul li {
+    margin-left: 20px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.header-nav ul li a:hover {
+    background-color: #ff66b3; /* Medium pink */
+    border-radius: 5px;
+}
+
+header {
+    background-color: #ff99cc; /* Vibrant pink for header */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Styling for Buttons */
+button {
+    background-color: #ff66b3; /* Medium pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff3385; /* Darker pink */
+}
+
+/* Styling for Forms */
+
+
+form label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Styling for Tables */
+table {
+    width: 95%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+table th {
+    background-color: #ff66b3; /* Medium pink */
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Booking Confirmation Page */
+.confirmation-container {
+	padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #ffeaf7; /* Light pinkish background for bridal theme */
+}
+
+#booking-confirmation {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 100%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #booking-confirmation h1 {
+            color: #ff3385; /* Darker pink */
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .confirmation-details {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .confirmation-details p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .confirmation-actions {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .confirmation-actions a {
+            background-color: #ff66b3; /* Medium pink */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+
+        .confirmation-actions a:hover {
+            background-color: #ff3385; /* Darker pink */
+        }
+
+/* Booking Management Page */
+.booking-management {
+	padding: 5%;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.bookings-table button {
+    margin: 10px;
+}
+
+.booking-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.booking-card h3 {
+    color: #ff3385; /* Darker pink */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.booking-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+
+/* Profile Page Container */
+
+.profile-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f8f8f8; /* Light gray for the background */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f9f9f9; /* Medium pink */
+    width: 20%;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar nav ul li a.active, .sidebar nav ul li a:hover {
+    background-color: #ff3385; /* Darker pink */
+	color: white;
+}
+
+/* Profile Content */
+.profile-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff3385; /* Darker pink */
+}
+
+.profile-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.modal {
+  display: none; /* Modal is hidden by default */
+  position: fixed;
+  z-index: 1000; /* Ensures it appears above other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Dim background */
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+/* Header */
+.about-header {
+	
+	background-image: url('img/header-banner.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image in the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 50vh; /* Makes the background height fill the viewport */
+    width: 100%; /* Ensures the width fills the viewport */
+}
+
+.about-header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about-header .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.about-header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-header .nav-links .active {
+    border-bottom: 2px solid #ff69b4;
+}
+
+.account-btn {
+    background-color: transparent; /* Match other navigation links' background */
+    color: #fff; /* Use the same text color as the navigation links */
+    font-size: 16px; /* Match the font size */
+    border: none; /* Remove the border */
+    cursor: pointer;
+    padding: 0 15px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease-in-out; /* Add hover effect */
+}
+
+/* Hover effect */
+.account-btn:hover {
+    color: #007bff; /* Match the hover color of other navigation links */
+}
+
+/* Dropdown menu styles */
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #f9f9f9; /* Match the site's background color */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for separation */
+    min-width: 150px; /* Set a width for consistency */
+    right: 0; /* Align to the right under the button */
+    z-index: 1; /* Keep it above other elements */
+    border-radius: 4px; /* Smooth edges */
+    overflow: hidden;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px; /* Match dropdown font to site theme */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Subtle highlight */
+}
+
+.account-dropdown {
+    position: relative;
+    display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+/* Show the dropdown when active */
+.account-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Banner */
+.header-banner h1 {
+    font-size: 2.5rem;
+}
+
+.header-banner p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* About Content Section */
+.about-content {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-content .text-content {
+	flex: 40% 0 0;
+	padding-left: 5%;
+}
+
+.about-content .text-content h2 {
+    color: #ff69b4;
+    font-size: 2rem;
+}
+
+.about-content .text-content p {
+    margin: 15px 0;
+}
+
+.about-content .image-content {
+   padding-left:5%;
+}
+
+.about-content .image-content img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+/* Call to Action */
+.call-to-action {
+    background: #ff69b4;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.call-to-action h2 {
+    font-size: 1.8rem;
+}
+
+.call-to-action button {
+    background: #fff;
+    color: #ff69b4;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+    padding: 50px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    color: #ff69b4;
+    font-size: 2rem;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.feature {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+    color: #ff69b4;
+}
+
+.testimonial-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*bookingmoodificationpage*/
+		.modification-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+			padding: 20px;
+			margin: 0 auto;
+		}
+		#booking-modification,
+		.calendar-container {
+			flex: 1;
+			background-color: white;
+			border-radius: 10px;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			overflow: hidden;
+			text-align: center;
+		}
+		#booking-modification {
+			max-width: 60%;
+        }
+		.calendar-container {
+			max-width: 40%;
+        }
+
+        .modification-details {
+			display: grid;
+			grid-template-columns: auto fit-content(40%);
+			grid-gap: 15px;
+        }
+		#extrafee-container{
+			grid-row:2;
+		}
+
+		#booking-details, #date-address-modify, #date-selection, #address-modification, #extrafee-container{
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+			background-color: white;
+			
+		}
+		
+		#booking-details,  #date-selection, #address-modification, #extrafee-container h2, h3 {
+			margin-bottom: 20px;
+			color: #333;
+		}
+
+		#booking-details,  #date-selection, #extrafee-container label {
+			display: block;
+			margin-bottom: 8px;
+			color: #555;
+		}
+		#date-selection, #extrafee-container input [type="text"], .date-placeholder,  .price-placeholder {
+			display: block;
+			width: auto;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			background-color: #f9f9f9;
+			box-sizing: border-box;
+		}
+		
+		#address-modification .venue-placeholder{
+			
+			width: auto;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			background-color: #f9f9f9;
+			box-sizing: border-box;
+		}
+		
+		
+		.venue-placeholder:hover, .price-placeholder:hover {
+			border-color: #007bff;
+			box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+		}
+		.cta-button {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			border: none;
+			border-radius: 4px;
+			background-color: #007bff;
+			color: white;
+			font-weight: bold;
+			cursor: pointer;
+			margin-top: 10px;
+			transition: background-color 0.3s;
+		}
+
+		.cta-button:disabled {
+			background-color: #ccc;
+		}
+
+		.cta-button:hover:not(:disabled) {
+			background-color: #0056b3;
+		}
+		
+		 }
+        button {
+            margin-top: 20px;
+            background-color: #ff6584;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background-color: #e6496c;
+        }
+		
+		/*Calendar Section*/
+		.calendar-container {
+			background-color: white;
+			border-radius: 10px;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			text-align: center;
+		}
+		.calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+			padding: 10px;
+			background-color: #ff99cc;
+			color: white;
+			border-radius: 5px;
+        }
+        .calendar-header a {
+            text-decoration: none;
+            color: white;
+            background-color: #ff6584;
+            font-size: 1 rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .calendar-header a:hover {
+            background-color: #e6496c;
+            transform: scale(1.1);
+        }
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 3px;
+            font-size: 0.5 rem;
+        }
+        .calendar div {
+            padding: 15px;
+            background-color: #ffe0e5;
+            border-radius: 10px;
+            text-align: center;
+			cursor: pointer;
+			transition: background-color 0.3s;
+        }
+        .calendar .day:hover {
+            background-color: #ff99aa;
+        }
+        .calendar .booked {
+            background-color: grey;
+            color: white;
+			cursor: not-allowed;
+        }
+		.calendar .selected {
+            background-color: #4caf50;
+            color: white;
+        }
+		.calendar .selected:hover {
+            background-color: grey;
+            color: white;
+		}
+		.calendar.in-range {
+			background-color: #4caf50;
+			color: black;
+		}
+		/* Responsive Styling */
+		@media (max-width: 768px) {
+			.calendar div {
+				padding: 10px;
+				font-size: 0.8rem;
+			}
+
+			button {
+				font-size: 0.9rem;
+				padding: 8px;
+			}
+
+			.calendar-header {
+				font-size: 1rem;
+				padding: 10px;
+			}
+}
+
+/*Filter form*/
+
